@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cloud Library" />
+    <meta property="og:description" content="Books at your fingertips" />
+    <meta property="og:url" content="./index.html"/>
+    <meta property="og:site_name" content="Cloud Library" />
+    <meta property="og:image" content="https://i.imgur.com/fFLDk2i.jpg"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./cloud.png"></link>
+    <title>Cloud Lib</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="ham-btn">
+            <img src="./ham.png" height="24px" width="28px" id="ham-btn">
+        </label>
+        <label class="brand"><a href="./index.html">Cloud Lib</a></label>
+        
+        <ul>
+            <li><a href="./index.html" class="nav-btn">Home</a></li>
+            <li><a href="./books.html" class="nav-btn">Browse Books</a></li>
+            <li><a href="./apps.html" class="nav-btn">Web Apps</a></li>
+            <li><a href="https://forms.gle/pqU9wSkTNAaepBJY8" class="nav-btn" target="blank">Submit Books</a></li>
+            <li><a href="https://forms.gle/LxZqNyhFiZ6HCetSA" class="nav-btn" target="blank">Book Request</a></li>
+            <li><a href="./team.html" class="nav-btn">Team</a></li>
+            <li><a href="./help.html" class="nav-btn">Help</a></li>
+            <li><a href="http://www.facebook.com/sharer.php?u=" class="nav-btn">Share</a></li>
+            <li><a href="./about.html" class="nav-btn">About</a></li>
+        </ul>
+    </nav>
+    <div class="data-container">
+        <img src="data.png" class="data-img"><p id="database"></p>
+    </div>
+    <div class="img-holder" id="img-holder">
+        <img src="./cloud.png"  class="cloud">
+        <p class="img-txt">Cloud Lib </p>
+   </div>
+   <div class="search-container">
+       <input type="text" placeholder="Type to Search" id="search" class="search"><br>
+       <p class="suggestion" id="suggestion">search by the book's name/ writer's name/ subject/ category,<b> simply just type & </b><br><b>Don't put random keywords</b></p>
+   </div>
+   <div class="result-container">
+     <div id="list" class="list"></div>
+   </div>
+    <script src="./main.js"></script>
+</body>
+</html>

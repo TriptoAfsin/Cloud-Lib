@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="ham-btn">
+            <img src="./ham.png" height="24px" width="28px" id="ham-btn">
+        </label>
+        <label class="brand"><a href="./index.html">Cloud Lib</a></label>
+        <ul>
+            <li><a href="./index.html" class="nav-btn">Home</a></li>
+            <li><a href="./books.html" class="nav-btn">Browse Books</a></li>
+            <li><a href="./apps.html" class="nav-btn">Web Apps</a></li>
+            <li><a href="https://forms.gle/pqU9wSkTNAaepBJY8" class="nav-btn" target="blank">Submit Books</a></li>
+            <li><a href="https://forms.gle/LxZqNyhFiZ6HCetSA" class="nav-btn" target="blank">Book Request</a></li>
+            <li><a href="./team.html" class="nav-btn">Team</a></li>
+            <li><a href="./help.html" class="nav-btn">Help</a></li>
+            <li><a href="http://www.facebook.com/sharer.php?u=" class="nav-btn">Share</a></li>
+            <li><a href="./about.html" class="nav-btn">About</a></li>
+        </ul>
+    </nav>
+    <div>
+        <form class="books-dropdown">
+            <p class="dropddown-header">Browse By Category<sup class="sup-txt">Beta</sup> - </p>
+            <select id="book-display-list" onchange="displayBooks()" class="book-display-list">
+            <option value=""></option>
+              <option value="literature">Art / Literature/ Novel</option>
+              <option value="Sci-Fi">Sci-Fi</option>
+              <option value="Religion">Religion</option>
+              <option value="Sci-Fi">Sci-Fi</option>
+              <option value="comics">Comics</option>
+              <option value="Chemistry">Chemistry</option>
+              <option value="Math">Mathematics</option>
+              <option value="Coding">Coding</option>
+              <option value="course">Courses</option>
+              <option value="language">Language</option>
+              <option value="GRE">GRE</option>
+              <option value="Textile">Textile Eng.</option>
+              <option value="Civil">Civil Eng.</option>
+              <option value="Mechanical">Mechanical Eng.</option>
+              <option value="ipe">Industrial & Production Eng.</option>
+            </select>
+          </form>
+    </div>
+    <div class="book-display" id="book-display">
+        <p id="suggestion">Select any category from the dropdown list given above ^</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
