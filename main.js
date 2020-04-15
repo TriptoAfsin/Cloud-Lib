@@ -2461,7 +2461,7 @@ let database = [
         "subject": "GRE",
 		"page": "98",
         "link": "https://drive.google.com/file/d/1nMJye9E6kytD4X36APlgmS7Ctu-B1a4q/view?usp=sharing",
-        "terms": "vocabulary gre english magoosh vocal" ,
+        "terms": "vocabulary gre1 english magoosh vocal" ,
     },
     {
 		"writer": "Manhattan Prep",
@@ -2470,7 +2470,7 @@ let database = [
         "subject": "GRE",
 		"page": "1225",
         "link": "https://drive.google.com/file/d/12EN8kLd4JQvJN0ktSG3RjKQlcrlAy0qn/view?usp=sharing",
-        "terms": "gre english manhataan " ,
+        "terms": "gre1 english manhataan " ,
     },
     {
 		"writer": "Kaplan",
@@ -2479,7 +2479,7 @@ let database = [
         "subject": "GRE",
 		"page": "819",
         "link": "https://drive.google.com/file/d/12EN8kLd4JQvJN0ktSG3RjKQlcrlAy0qn/view?usp=sharing",
-        "terms": "gre english kaplan verbal" ,
+        "terms": "gre1 english kaplan verbal" ,
     },
     {
 		"writer": "H K Dass",
