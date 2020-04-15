@@ -700,7 +700,7 @@ let database = [
         "language": "English",
         "subject": "Novel",
         "page": "370",
-        "link": "https://www.dropbox.com/s/4z5mau0xx3tpxr5/little-women.pdf?dl=0",
+        "link": "https://drive.google.com/file/d/12QeZVpWJVAD02PG5gbmK_0axgFgKL1g8/view?usp=sharing",
         "terms": "Literature" ,
        }, 
        {
@@ -718,7 +718,7 @@ let database = [
         "language": "English",
         "subject": "Novel",
         "page": "537",
-        "link": "https://www.dropbox.com/s/zf9ph8y80qem16x/a-tale-of-two-cities.pdf?dl=0",
+        "link": "https://drive.google.com/file/d/13McoqU5ewbG_fMcnnffj9Fyk45k-w4px/view?usp=sharing",
         "terms": "Literature" ,
        }, 
        {
@@ -736,7 +736,7 @@ let database = [
         "language": "English",
         "subject": "Machine Learning / Programming",
         "page": "103",
-        "link": "https://1drv.ms/b/s!AlqxrlyhIjJbsQChSgoH3ME77v1J?e=c9bIVz",
+        "link": "https://drive.google.com/file/d/1zc_r1NXBmbwlfM8dwRWDTFXAuG-Pep-G/view?usp=sharing",
         "terms": "coding ml python" ,
        }, 
        {
@@ -772,7 +772,7 @@ let database = [
         "language": "English",
         "subject": "Java / Programming",
         "page": "1313",
-        "link": "https://1drv.ms/b/s!AlqxrlyhIjJbsQJJjGN3OV_PJmnw?e=YChMyT",
+        "link": "https://drive.google.com/file/d/1-O5lt7ySiUJnYtevL3wfD8QbdyH8WGCo/view?usp=sharing",
         "terms": "coding java oracle" ,
        }, 
        {
