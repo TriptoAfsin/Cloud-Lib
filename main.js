@@ -754,7 +754,7 @@ let database = [
         "language": "English",
         "subject": "JavaScript / Programming",
         "page": "645",
-        "link": "https://1drv.ms/b/s!AlqxrlyhIjJbsQMRdTaZogNWgDxq?e=vXaIWK",
+        "link": "https://drive.google.com/file/d/1Db2u_LKaxygpUNaC1dv-pFmNVNNtIZOE/view?usp=sharing",
         "terms": "coding javascript dummy dummies" ,
        }, 
        {
