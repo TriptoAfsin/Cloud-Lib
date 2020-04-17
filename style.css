@@ -54,6 +54,55 @@ body{
     margin: 10px auto;
     user-select: none; /* prevents user from selcting ui elements*/
 }
+#random_books{
+    width: 350px;
+    text-align: center;
+    margin: 10px auto;
+    user-select: none;
+}
+#random-cat{
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+.random-btn{
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: #3cac3c;
+}
+
+.random-btn:hover{
+    transition: ease-in 0.25s;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: #50ce50;
+}
+
+.random-download{
+    border-radius: 5px;
+    padding: 0 0.5rem;
+    color: white;
+    text-decoration: none;
+    background-color: #3cac3c;
+}
+.random-download:hover{
+    border-radius: 5px;
+    padding: 0 0.5rem;
+    color: white;
+    text-decoration: none;
+    background-color: #50ce50;
+}
 
 
 .sup-txt{
@@ -68,6 +117,7 @@ body{
     user-select: none; 
     text-align: center;
 }
+
 #book-display a{
     border-radius: 5px;
     padding: 0 0.5rem;
@@ -95,7 +145,19 @@ body{
     font-size: 2rem;
 }
 
+.art-lit-edu{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
 #book-display-list{
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+#book-display-list2{
     border: none;
     border-radius: 10px;
     margin-top: 1.5rem;
@@ -325,7 +387,12 @@ nav ul li{
     box-shadow: 0 3px 5px 0 rgba(27, 28, 29, 0.795);
 }
 
+.suggestion-container{
+    text-align: center;
+}
+
 #suggestion{
+    text-align: center;
     padding: 0 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -336,7 +403,6 @@ nav ul li{
     color: black;
     box-shadow: 0 3px 5px 0 rgba(105, 149, 175, 0.795);
 }
-
 
 
 .card{
