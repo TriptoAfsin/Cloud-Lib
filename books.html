@@ -16,36 +16,46 @@
         <ul>
             <li><a href="./index.html" class="nav-btn">Home</a></li>
             <li><a href="./books.html" class="nav-btn">Browse Books</a></li>
+            <li><a href="./random_books.html" class="nav-btn">Book Suggestor</a></li>
             <li><a href="./apps.html" class="nav-btn">Web Apps</a></li>
             <li><a href="https://forms.gle/pqU9wSkTNAaepBJY8" class="nav-btn" target="blank">Submit Books</a></li>
             <li><a href="https://forms.gle/LxZqNyhFiZ6HCetSA" class="nav-btn" target="blank">Book Request</a></li>
             <li><a href="./team.html" class="nav-btn">Team</a></li>
             <li><a href="./help.html" class="nav-btn">Help</a></li>
-            <li><a href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/Cloud-Lib/" class="nav-btn">Share</a></li>
+            <li><a href="http://www.facebook.com/sharer.php?u=" class="nav-btn">Share</a></li>
             <li><a href="./about.html" class="nav-btn">About</a></li>
         </ul>
     </nav>
     <div>
         <form class="books-dropdown">
             <p class="dropddown-header">Browse By Category<sup class="sup-txt">Beta</sup> - </p>
+            <p class="art-lit-edu">Art / literature Category : </p>
             <select id="book-display-list" onchange="displayBooks()" class="book-display-list">
-            <option value=""></option>
-              <option value="literature">Art / Literature/ Novel</option>
-              <option value="Sci-Fi">Sci-Fi</option>
-              <option value="Religion">Religion</option>
-              <option value="Sci-Fi">Sci-Fi</option>
+            <option value="none" id="diselectArt">None</option>
+              <option value="literature">All Art/Literature</option>
+              <option value="Sci-Fi">Science Fiction</option>
+              <option value="thriller">Thriller</option>
+              <option value="novel">Novel</option>
+              <option value="romantic">Romantic</option>
+              <option value="detective">Detective</option>
               <option value="comics">Comics</option>
-              <option value="Chemistry">Chemistry</option>
-              <option value="Math">Mathematics</option>
-              <option value="Coding">Coding</option>
-              <option value="course">Courses</option>
-              <option value="language">Language</option>
-              <option value="gre1">GRE</option>
-              <option value="Textile">Textile Eng.</option>
-              <option value="Civil">Civil Eng.</option>
-              <option value="Mechanical">Mechanical Eng.</option>
-              <option value="ipe">Industrial & Production Eng.</option>
             </select>
+            <p class="art-lit-edu">Educational Category : </p>
+            <select id="book-display-list2" onchange="displayBooks2()" class="book-display-list">
+                <option value="none" id="diselectEdu">None</option>
+                <option value="physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Math">Mathematics</option>
+                <option value="Coding">Coding</option>
+                <option value="course">Courses</option>
+                <option value="Religion">Religion</option>
+                <option value="language">Language</option>
+                <option value="gre1">GRE</option>
+                <option value="Textile">Textile Eng.</option>
+                <option value="Civil">Civil Eng.</option>
+                <option value="Mechanical">Mechanical Eng.</option>
+                <option value="ipe">Industrial & Production Eng.</option>
+                </select>
           </form>
     </div>
     <div class="book-display" id="book-display">
