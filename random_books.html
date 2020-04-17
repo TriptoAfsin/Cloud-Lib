@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Books</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="ham-btn">
+            <img src="./ham.png" height="24px" width="28px" id="ham-btn">
+        </label>
+        <label class="brand"><a href="./index.html">Cloud Lib</a></label>
+        <ul>
+            <li><a href="./index.html" class="nav-btn">Home</a></li>
+            <li><a href="./books.html" class="nav-btn">Browse Books</a></li>
+            <li><a href="./random_books.html" class="nav-btn">Book Suggestor</a></li>
+            <li><a href="./apps.html" class="nav-btn">Web Apps</a></li>
+            <li><a href="https://forms.gle/pqU9wSkTNAaepBJY8" class="nav-btn" target="blank">Submit Books</a></li>
+            <li><a href="https://forms.gle/LxZqNyhFiZ6HCetSA" class="nav-btn" target="blank">Book Request</a></li>
+            <li><a href="./team.html" class="nav-btn">Team</a></li>
+            <li><a href="./help.html" class="nav-btn">Help</a></li>
+            <li><a href="http://www.facebook.com/sharer.php?u=" class="nav-btn">Share</a></li>
+            <li><a href="./about.html" class="nav-btn">About</a></li>
+        </ul>
+    </nav>
+    <form class="books-dropdown">
+        <p class="dropddown-header">Random Books<sup class="sup-txt">Beta</sup> - </p>
+        <select id="random-cat" onchange="getRange()" class="book-display-list">
+        <option value="">Select Your Category</option>
+        <option value="all">All Category</option>
+        <option value="humayun">Humayun Ahmed Books</option>
+        <option value="sci-fi">Sci-Fi</option>
+        <option value="thriller">Thriller</option>
+        <option value="detective">Detective</option>
+        <option value="novel">Novel</option>
+        <option value="comics">Comics</option>
+        <option value="phy">Physics</option>
+        <option value="code">Coding</option>
+        <option value="rel">Religion</option>
+        </select>
+      </form>
+    <div class="about-container">
+            <div id="random_books">
+
+            </div>
+            <p class="contributor"><input type="button" href="#"  value="Suggest Me a Book" class="random-btn" id="random-btn"></p><br>
+            <div class="suggestion-container">
+                <p id="suggestion">1. Select any category from the dropdown list given above ^<br>2. Tap on the "Suggest Me a Book Button""</p>
+            </div>
+            
+            
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
