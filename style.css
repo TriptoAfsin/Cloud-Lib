@@ -413,6 +413,18 @@ nav ul li{
     color: black;
     box-shadow: 0 3px 5px 0 rgba(105, 149, 175, 0.795);
 }
+#suggestion2{
+    text-align: center;
+    padding: 0 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 5rem;
+    color: black;
+    box-shadow: 0 3px 5px 0 rgba(105, 149, 175, 0.795);
+}
 
 
 .card{
