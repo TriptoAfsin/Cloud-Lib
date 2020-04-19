@@ -374,6 +374,16 @@ nav ul li{
     background-color: rgb(94, 233, 76);
 }
 
+.form-container{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.form-container p{
+    font-size: 1.8rem;
+    color: black;
+}
+
 
 .team-pic-holder{
     display: flex;
@@ -509,12 +519,12 @@ nav ul li{
     }
 }
 
-@media(max-width: 858px){
+@media(max-width: 1170px){
     .ham-btn{
         display: block;
     }
 }
-@media(max-width: 858px){
+@media(max-width: 1170px){
     ul{
         position: fixed;
         width: 100%;
@@ -526,18 +536,18 @@ nav ul li{
         transition: all 0.5s;
     }
 }
-@media(max-width: 858px){
+@media(max-width: 1170px){
     nav ul li{
         display: block;
     }
 }
-@media(max-width: 858px){
+@media(max-width: 1170px){
     nav ul li a{
         font-size: 30px; 
     }
 }
 
-@media(max-width: 858px){
+@media(max-width: 1170px){
     a:hover, a.nav-btn{
         cursor: pointer;
         background: none;
@@ -546,7 +556,7 @@ nav ul li{
     }
 }
 
-@media(max-width: 858px){
+@media(max-width: 1170px){
     #check:checked ~ ul{
         width: 105%;
         right: 0;
@@ -659,5 +669,12 @@ nav ul li{
         color: white;
         font-size: 1.25rem;
         margin-left: 7rem;
+    }
+}
+
+@media(max-width: 858px){
+    iframe{
+        width: 350px;
+        
     }
 }
