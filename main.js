@@ -45,9 +45,18 @@ let database = [
         "link": "https://drive.google.com/file/d/1BN3kVMtkXOVJxaAEL9CFD_kRNTKStCyH/view",
         "terms": "" ,
     },
+    {
+		"writer": "Md. Zafar Iqbal",
+		"name": "পদার্থবিজ্ঞানের প্রথম পাঠ",
+      "language": "Bangla",
+      "subject": "Physics",
+		"page": "311",
+        "link": "https://drive.google.com/file/d/1CU3klp2Y6WXAH47whMuA30TXlecdFu--/view?usp=sharing",
+        "terms": "জাফর podartho" ,
+    },
+      //0-5
 
     //Religion only start
-
     {
         "writer": "N /A",
         "name": "Holy Quran(With English Meaning)",
@@ -57,6 +66,15 @@ let database = [
         "link": "https://drive.google.com/file/d/1dYuo_C632gDgk-_9uAgqgigm4TsDX5a0/view?usp=sharing",
         "terms": "islam kuran al-quran shorif" ,
        }, 
+       {
+         "writer": "Imam Gazzali (R:)",
+         "name": "Akherat",
+         "language": "Bangla",
+         "subject": "Religion",
+         "page": "125",
+         "link": "https://drive.google.com/file/d/1jm2l27LeTQ0boMuhvVRf_7K6PodiOipS/view?usp=sharing",
+         "terms": "islam আখেরত বশির bashir" ,
+        }, 
        {
         "writer": "N /A",
         "name": "The Holy Bible",
@@ -122,7 +140,7 @@ let database = [
        "terms": " Religion" ,
    },
 
-   //13
+   //14
 
    //Sci-fi start
 
@@ -199,8 +217,17 @@ let database = [
    "terms": " Literature" ,
 },
 
-    //18
+    //19
    //Masud Rana Thriller Start
+   {
+      "writer": "Dan Brown Translated by Md. Nazim Uddin",
+      "name": "The Da Vinci Code",
+         "language": "Bangla",
+         "subject": "Thriller",
+          "page": "444",
+          "link": "https://drive.google.com/file/d/1YJopj9uMNhhKyeHIuUW1fkfQvXYXlLUY/view?usp=sharing",
+         "terms": "novel thriller translated" ,
+      },
 
    {
     "writer": "Qazi Anwar Hussain",
@@ -770,9 +797,18 @@ let database = [
    "terms": " Literature" ,
 },
 
-//81
+//83
 
 // Dtective Start
+{
+   "writer": "Satyajit Ray",
+   "name": "ফেলুদা সমগ্র ১ ",
+      "language": "Bangla",
+      "subject": "Detective",
+       "page": "710",
+       "link": "https://drive.google.com/file/d/1BAHb_Oob2fS9NweY0I0ROhijTHyu9Fwf/view?usp=sharing",
+      "terms": " literature সত্যজিৎ shottojit shatyajit roy" ,
+   },
 {
 	"writer": "Humayun Ahmed",
 	"name": "Debi.pdf",
@@ -990,7 +1026,7 @@ let database = [
        "terms": " Literature" ,
    },
 
-   //107
+   //110
    // Novel Start
    {
 	"writer": "Humayun Ahmed",
@@ -1110,7 +1146,7 @@ let database = [
     "link": "https://www.dropbox.com/s/lkwzhdudclu95nc/the-fellowship-of-the-ring-j-r-r-tolkien.pdf?dl=0",
     "terms": "Literature" ,
    }, 
-   //120
+   //121
    //Comic Start
    {
     "writer": "Shahriar",
@@ -1220,7 +1256,7 @@ let database = [
 	"link": "https://drive.google.com/file/d/1qDOatBwnlirEuJD2wJrc4iyckLGwf0ic/view?usp=drivesdk",
        "terms": "চাচা literature" ,
    },
-// 132
+// 135
 
 //coding start
 
@@ -1315,7 +1351,7 @@ let database = [
     "terms": "cse Science computer Engineering coding code code" ,
 },
 
-   //142
+   //144
    // Humayun Ahmed Start 
 
    {
@@ -1800,7 +1836,7 @@ let database = [
 },
 {
 "writer": "Imdadul Hoque Milon",
-"name": "Humayun Ahmed Ebong Humayun Ahmed.pdf",
+"name": "Humayun Ahmed Ebong Humayun Ahmed",
    "language": "Bangla",
    "subject": "Biography ",
 "page": "18",
@@ -1808,8 +1844,17 @@ let database = [
    "terms": "literature" ,
 },
 {
+   "writer": "Md. Zafar iqbal",
+   "name": "আমার বড় বই হুমায়ুন ",
+      "language": "Bangla",
+      "subject": "Biography ",
+   "page": "6",
+   "link": "https://drive.google.com/file/d/1GFaKb98qR5uaPM9mcFt1gvr0RnlzLf8g/view?usp=drivesdk",
+      "terms": "literature boro humayun" ,
+   },
+{
 "writer": "M. Sohel Rana",
-"name": "Humayun Ahmed Biography.pdf",
+"name": "Humayun Ahmed Biography",
    "language": "Bangla",
    "subject": "Biography ",
 "page": "12",
@@ -2574,6 +2619,56 @@ let database = [
     "link": "https://drive.google.com/file/d/1oW-YnxsH6LPWEeJNG7vX-ooRtKPm9u23/view?usp=drivesdk",
    "terms": " literature" ,
 },
+
+// 285
+
+{
+   "writer": "Md. Zafar Iqbal",
+   "name": "Ami Topu",
+      "language": "Bangla",
+      "subject": "Child",
+       "page": "147",
+       "link": "https://drive.google.com/file/d/1YT039qg7pCs-aEfWoUh0f6DI-1gKUCeS/view?usp=sharing",
+      "terms": " literature zafor jafor জাফর তপু topu" ,
+   },
+
+{
+   "writer": "Debobroto Mukhopaddhay",
+   "name": "Mashrafe",
+      "language": "Bangla",
+      "subject": "Biography",
+       "page": "502",
+       "link": "https://drive.google.com/file/d/1Zo3jpcv6L0IMT9K6GMNtVLafog6b1-2I/view?usp=sharing",
+      "terms": " literature mash মাশরাফি দেবব্রত " ,
+   },
+   {
+      "writer": "Yuval Noah",
+      "name": "A Brief History of Humankind Sapiens",
+         "language": "English",
+         "subject": "History",
+          "page": "368",
+          "link": "https://drive.google.com/file/d/1WyrzfqpGPsux8IubUbkEOpT8FIiLZaRB/view?usp=sharing",
+         "terms": " literature" ,
+      },
+      {
+         "writer": "Jordan B Peterson",
+         "name": "12 Rules for Life",
+            "language": "English",
+            "subject": "Life",
+             "page": "285",
+             "link": "https://drive.google.com/file/d/1fSCdc4Vp9SlxWfTZNs8jIWMqVS14to_U/view?usp=sharing",
+            "terms": " literature life productivity" ,
+         },
+         
+      {
+         "writer": "Chomok Hasan",
+         "name": "Goniter Ronge",
+            "language": "Bangla",
+            "subject": "Math",
+             "page": "98",
+             "link": "https://drive.google.com/file/d/18FK8gNeFETpbKiVx2eTaPZ2CXfnb17AI/view?usp=sharing",
+            "terms": " Math chomok চমক গণিত" ,
+         },
 
 
 {
@@ -3424,11 +3519,13 @@ const outputHtml = matches =>{
         `).join('');
         console.log(html);
         document.getElementById("suggestion").style.display = "none";
+        document.getElementById("suggestion2").style.display = "none";
         matchList.innerHTML = html;
     }
     else{
         matchList.innerHTML = null;
         document.getElementById("suggestion").style.display = "inline-block";
+        document.getElementById("suggestion2").style.display = "none";
     }
 };
 
@@ -3556,39 +3653,39 @@ function getRange(){
     console.log("range shifter called");
     if( selectedCat == "phy"){
         min = 0;
-        max = 4;
+        max = 5;
     }
     else if(selectedCat == "rel"){
-        min = 5;
-        max = 12;
+        min = 6;
+        max = 14;
     }
     else if(selectedCat == "sci-fi"){
-        min = 13;
-        max = 19;
+        min = 15;
+        max = 21;
     }
     else if(selectedCat == "thriller"){
-        min = 20;
-        max = 82;
+        min = 22;
+        max = 86;
     }
     else if(selectedCat == "detective"){
-        min = 83;
-        max = 107;
+        min = 87;
+        max = 111;
     }
     else if(selectedCat == "novel"){
-        min = 108;
-        max = 120;
+        min = 112;
+        max = 124;
     }
     else if(selectedCat == "comics"){
-        min = 121;
-        max = 132;
+        min = 125;
+        max = 136;
     }
     else if(selectedCat == "code"){
-        min = 133;
-        max = 142;
+        min = 137;
+        max = 146;
     }
     else if(selectedCat == "humayun"){
-        min = 143;
-        max = 280;
+        min = 147;
+        max = 285;
     }
     else if(selectedCat == "all"){
         min = 0;
