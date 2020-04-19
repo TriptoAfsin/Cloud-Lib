@@ -426,6 +426,10 @@ nav ul li{
     box-shadow: 0 3px 5px 0 rgba(105, 149, 175, 0.795);
 }
 
+#suggestion2 a{
+    color: rgb(41, 112, 243);
+}
+
 
 .card{
     width: 100%;
