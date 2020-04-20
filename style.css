@@ -588,6 +588,7 @@ nav ul li{
 
 @media(max-width: 1235px){
     #check:checked ~ ul{
+        margin-right: -5%;
         width: 105%;
         right: 0;
     }
