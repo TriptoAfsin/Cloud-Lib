@@ -65,9 +65,8 @@ body{
 .brand img:hover{
     margin-left: -0.55%;
     transition: ease-in 0.25s;
-    box-shadow: 0px 2px 5px rgba(95, 95, 99, 0.795);
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
 }
 #random_books{
     width: 350px;
@@ -721,8 +720,7 @@ nav ul li{
     .brand img:hover{
     margin-left: -2%;
     transition: ease-in 0.25s;
-    box-shadow: 0px 2px 5px rgba(95, 95, 99, 0.795);
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     }
 }
