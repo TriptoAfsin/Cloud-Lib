@@ -3587,7 +3587,7 @@ const outputHtml = matches =>{
         const html = matches.map(match => `
         <div class="card">
         <p class="card-title">${match.name} <br>(${match.writer}) <br><span>${match.subject}</span></p>
-        <p><a href="${match.link}" target="blank" id="url">Download</a></p>
+        <p><a href="${match.link}" target="blank" id="url" class="random-download">Download</a></p>
         <small>Language: ${match.language} / Page: ${match.page} </small>
         </div>
         `).join('');
@@ -3640,7 +3640,7 @@ const outputHtml = matches =>{
         const html = matches.map(match => `
         <div class="card">
         <p class="card-title">${match.name} <br>(${match.writer}) <br><span>${match.subject}</span></p>
-        <p><a href="${match.link}" target="blank" id="url">Download</a></p>
+        <p><a href="${match.link}" target="blank" id="url" class="random-download">Download</a></p>
         <small>Language: ${match.language} / Page: ${match.page} </small>
         </div>
         `).join('');
