@@ -104,6 +104,7 @@ body{
 }
 
 .random-download{
+    font-size: 1.25rem;
     border-radius: 5px;
     padding: 0 0.5rem;
     color: white;
@@ -111,6 +112,7 @@ body{
     background-color: #3cac3c;
 }
 .random-download:hover{
+    font-size: 1.25rem;
     border-radius: 5px;
     padding: 0 0.5rem;
     color: white;
