@@ -217,8 +217,8 @@ let database = [
    "terms": " Literature" ,
 },
 
-    //19
-   //Masud Rana Thriller Start
+    //22
+   // Thriller Start
    {
       "writer": "Dan Brown Translated by Md. Nazim Uddin",
       "name": "The Da Vinci Code",
@@ -228,6 +228,15 @@ let database = [
           "link": "https://drive.google.com/file/d/1YJopj9uMNhhKyeHIuUW1fkfQvXYXlLUY/view?usp=sharing",
          "terms": "novel thriller translated" ,
       },
+      {
+         "writer": "Dan Brown Translated by Md. Nazim Uddin",
+         "name": "Origin",
+            "language": "Bangla",
+            "subject": "Thriller",
+             "page": "558",
+             "link": "https://drive.google.com/file/d/1m11LFdksTnCm1CS449jyedLFq3B6m_aW/view?usp=sharing",
+            "terms": "novel thriller translated" ,
+         },
 
    {
     "writer": "Qazi Anwar Hussain",
@@ -797,7 +806,7 @@ let database = [
    "terms": " Literature" ,
 },
 
-//83
+//87
 
 // Dtective Start
 {
@@ -1026,7 +1035,7 @@ let database = [
        "terms": " Literature" ,
    },
 
-   //110
+   //114
    // Novel Start
    {
 	"writer": "Humayun Ahmed",
@@ -1146,7 +1155,7 @@ let database = [
     "link": "https://www.dropbox.com/s/lkwzhdudclu95nc/the-fellowship-of-the-ring-j-r-r-tolkien.pdf?dl=0",
     "terms": "Literature" ,
    }, 
-   //121
+   //122
    //Comic Start
    {
     "writer": "Shahriar",
@@ -1256,7 +1265,7 @@ let database = [
 	"link": "https://drive.google.com/file/d/1qDOatBwnlirEuJD2wJrc4iyckLGwf0ic/view?usp=drivesdk",
        "terms": "চাচা literature" ,
    },
-// 135
+// 136
 
 //coding start
 
@@ -1351,7 +1360,7 @@ let database = [
     "terms": "cse Science computer Engineering coding code code" ,
 },
 
-   //144
+   //145
    // Humayun Ahmed Start 
 
    {
@@ -2620,7 +2629,7 @@ let database = [
    "terms": " literature" ,
 },
 
-// 285
+// 286
 
 {
    "writer": "Md. Zafar Iqbal",
@@ -2641,6 +2650,15 @@ let database = [
        "link": "https://drive.google.com/file/d/1Zo3jpcv6L0IMT9K6GMNtVLafog6b1-2I/view?usp=sharing",
       "terms": " literature mash মাশরাফি দেবব্রত " ,
    },
+   {
+      "writer": "Seikh Mujibur Rahman",
+      "name": "অসমাপ্ত আত্নজীবনী",
+         "language": "Bangla",
+         "subject": "Biography",
+          "page": "337",
+          "link": "https://drive.google.com/file/d/1OGDBJQQn8_E8W1IcVJOi6zfTolPS_HD2/view?usp=sharing",
+         "terms": "oshamptto attojiboni মুজিব " ,
+      },
    {
       "writer": "Yuval Noah",
       "name": "A Brief History of Humankind Sapiens",
@@ -3665,14 +3683,14 @@ function getRange(){
     }
     else if(selectedCat == "thriller"){
         min = 22;
-        max = 86;
+        max = 87;
     }
     else if(selectedCat == "detective"){
-        min = 87;
-        max = 111;
+        min = 88;
+        max = 112;
     }
     else if(selectedCat == "novel"){
-        min = 112;
+        min = 113;
         max = 124;
     }
     else if(selectedCat == "comics"){
