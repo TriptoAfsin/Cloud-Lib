@@ -54,6 +54,21 @@ body{
     margin: 10px auto;
     user-select: none; /* prevents user from selcting ui elements*/
 }
+
+.brand img{
+    margin-left: -0.55%;
+    border-radius: 2px;
+    width: 80px;
+    height: 80px;
+}
+
+.brand img:hover{
+    margin-left: -0.55%;
+    transition: ease-in 0.25s;
+    box-shadow: 0px 2px 5px rgba(95, 95, 99, 0.795);
+    width: 80px;
+    height: 80px;
+}
 #random_books{
     width: 350px;
     text-align: center;
@@ -425,7 +440,6 @@ nav ul li{
     color: black;
     box-shadow: 0 3px 5px 0 rgba(105, 149, 175, 0.795);
 }
-
 #suggestion2 a{
     color: rgb(41, 112, 243);
 }
@@ -535,12 +549,12 @@ nav ul li{
     }
 }
 
-@media(max-width: 1170px){
+@media(max-width: 1235px){
     .ham-btn{
         display: block;
     }
 }
-@media(max-width: 1170px){
+@media(max-width: 1235px){
     ul{
         position: fixed;
         width: 100%;
@@ -552,18 +566,18 @@ nav ul li{
         transition: all 0.5s;
     }
 }
-@media(max-width: 1170px){
+@media(max-width: 1235px){
     nav ul li{
         display: block;
     }
 }
-@media(max-width: 1170px){
+@media(max-width: 1235px){
     nav ul li a{
         font-size: 30px; 
     }
 }
 
-@media(max-width: 1170px){
+@media(max-width: 1235px){
     a:hover, a.nav-btn{
         cursor: pointer;
         background: none;
@@ -572,7 +586,7 @@ nav ul li{
     }
 }
 
-@media(max-width: 1170px){
+@media(max-width: 1235px){
     #check:checked ~ ul{
         width: 105%;
         right: 0;
@@ -692,5 +706,22 @@ nav ul li{
     iframe{
         width: 350px;
         
+    }
+}
+@media(max-width: 858px){
+    .brand img{
+        border-radius: 2px;
+        margin-left: -2%;
+        width: 80px;
+        height: 80px;
+    }
+}
+@media(max-width: 858px){
+    .brand img:hover{
+    margin-left: -2%;
+    transition: ease-in 0.25s;
+    box-shadow: 0px 2px 5px rgba(95, 95, 99, 0.795);
+    width: 80px;
+    height: 80px;
     }
 }
