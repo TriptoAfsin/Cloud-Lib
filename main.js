@@ -3659,79 +3659,62 @@ const outputHtml = matches =>{
     }
 
 //random books
-
-
-
-
-
 function getRange(){
-    var max,min;
-    document.getElementById("random_books").innerHTML = "";
-    var selectedCat = document.getElementById("random-cat").value;
-    console.log("range shifter called");
-    if( selectedCat == "phy"){
-        min = 0;
-        max = 5;
-    }
-    else if(selectedCat == "rel"){
-        min = 6;
-        max = 14;
-    }
-    else if(selectedCat == "sci-fi"){
-        min = 15;
-        max = 21;
-    }
-    else if(selectedCat == "thriller"){
-        min = 22;
-        max = 87;
-    }
-    else if(selectedCat == "detective"){
-        min = 88;
-        max = 112;
-    }
-    else if(selectedCat == "novel"){
-        min = 113;
-        max = 124;
-    }
-    else if(selectedCat == "comics"){
-        min = 125;
-        max = 136;
-    }
-    else if(selectedCat == "code"){
-        min = 137;
-        max = 146;
-    }
-    else if(selectedCat == "humayun"){
-        min = 147;
-        max = 285;
-    }
-    else if(selectedCat == "all"){
-        min = 0;
-        max = database.length;
-    }
-    console.log("max: "+max);
-    console.log("max: "+min);
-    document.getElementById("random-btn").addEventListener("click", randomBooks);
-    function randomBooks(){
+   let sortedDB = [];
+   var search = document.getElementById("random-cat").value;
+   const matchList = document.getElementById("random_books");
+   let books;
+   console.log(search);
 
-        var random1 = Math.floor(Math.random()*(max - min+1))+min; //it's the range sorter algo
-        var random2 = Math.random();
-        var random3 = Math.random();
-        
-        document.getElementById("random_books").innerHTML = `
-        <div class="card">
-        <p class="card-title">${database[random1].name} <br>(${database[random1].writer}) <br><span>${database[random1].subject}</span></p>
-        <p><a href="${database[random1].link}" target="blank" id="url" class="random-download">Download</a></p>
-        <small>Language: ${database[random1].language} / Page: ${database[random1].page} </small>
-        </div>
-        `;
-    
-        console.log("Random Book 1: "+ database[random1].name);
-        console.log(random1);
-    }
+//this function searches the booklist
+const searchBooks = async searchText =>{
+   books = database;
+   //get matches
+   let matches = books.filter(book =>{
+       const regex = new RegExp(`${searchText}`, 'gi'); // ^: will search for which resuls starts with 
+       return book.name.match(regex) || book.writer.match(regex) || book.subject.match(regex) || book.terms.match(regex);
+   });
+
+   if(searchText.length === 0){
+       matches = [];
+       matchList.innerHTML ="";
+   }
+
+   outputHtml(matches);
+
+   console.log(matches);
+};
+//show results in html
+const outputHtml = matches =>{
+   if(matches.length > 0){
+      sortedDB = matches;
+      console.log(sortedDB);
+      console.log(sortedDB.length);
+      document.getElementById("random_books").innerHTML = ``;
+      document.getElementById("random-show").innerHTML = `<input type="button"  value="Suggest Me a Book" class="random-btn" id="random-btn">`;
+      document.getElementById("random-btn").addEventListener("click", randomBooks);
+      function randomBooks(){
+         console.log("random-btn alled");
+         var random1 = Math.floor(Math.random()*sortedDB.length); //it's the range sorter algo
+         document.getElementById("random_books").innerHTML = `
+         <div class="card">
+         <p class="card-title">${sortedDB[random1].name} <br>(${sortedDB[random1].writer}) <br><span>${sortedDB[random1].subject}</span></p>
+         <p><a href="${sortedDB[random1].link}" target="blank" id="url" class="random-download">Download</a></p>
+         <small>Language: ${sortedDB[random1].language} / Page: ${sortedDB[random1].page} </small>
+         </div>
+         `;
+         console.log("Random Book 1: "+ database[random1].name);
+         console.log(random1);
+     }
+   }
+   else{
+       matchList.innerHTML = null;
+   }
+};
+   window.addEventListener('DOMContentLoaded', searchBooks);
+   searchBooks(search);
 }
 
-console.log("selected Range:"+range);
 
 
 
