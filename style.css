@@ -417,6 +417,10 @@ nav ul li{
     text-align: center;
 }
 
+#random-show{
+    visibility: visible;
+}
+
 #suggestion{
     text-align: center;
     padding: 0 1rem;
