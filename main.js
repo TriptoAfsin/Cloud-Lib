@@ -1,4 +1,13 @@
 let database = [
+	{
+	"writer": "Shottojit Roy",
+	"name": "Feluda Somogro 2",
+       "language": "Bangla",
+       "subject": "Detective",
+	"page": "732",
+	"link": "https://drive.google.com/file/d/12c3p50e4ueLzxnHFW_Ywbh7ol0_CeO0e/view",
+       "terms": "Literature ফেলুদা " ,
+   },
     //physics only start
     {
 		"writer": "Gias Uddin",
