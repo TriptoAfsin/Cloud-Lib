@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Books</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="books-dropdown">
+        <p class="dropddown-header">Random Books<sup class="sup-txt">Beta</sup> - </p>
+        <select id="random-cat" onchange="getRange()" class="book-display-list">
+        <option value="null" onclick="remove()">Select Your Category</option>
+        <option value="a">All Category</option>
+        <option value="humayun">Humayun Ahmed Books</option>
+        <option value="sci-fi">Sci-Fi</option>
+        <option value="thriller">Thriller</option>
+        <option value="detective">Detective</option>
+        <option value="translated">Translated</option>
+        <option value="novel">Novel</option>
+        <option value="biography">Biography</option>
+        <option value="informative">Informative</option>
+        <option value="comics">Comics</option>
+        <option value="physics">Physics</option>
+        <option value="code">Coding</option>
+        <option value="religion">Religion</option>
+        </select>
+      </form>
+    <div class="about-container">
+            <div id="random_books">
+
+            </div>
+            <p class="contributor" id="random-show"></p><br>
+            <div class="suggestion-container">
+                <p id="suggestion">1. Select any category from the dropdown list given above ^<br>2. Tap on the "Suggest Me a Book Button""</p>
+            </div>
+            
+            
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
