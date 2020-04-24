@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="ham-btn">
+            <img src="./ham.png" height="24px" width="28px" id="ham-btn">
+        </label>
+        <label class="brand"><a href="./index.html"><img src="./back.png"></a></label>
+        <ul>
+            <li><a href="./index.html" class="nav-btn">Home</a></li>
+            <li><a href="./books.html" class="nav-btn">Browse Books</a></li>
+            <li><a href="./random_books.html" class="nav-btn">Book Suggestor</a></li>
+            <li><a href="./apps.html" class="nav-btn">Web Apps</a></li>
+            <li><a href="./submission.html" class="nav-btn">Submit Books</a></li>
+            <li><a href="./req.html" class="nav-btn">Book Request</a></li>
+            <li><a href="./team.html" class="nav-btn">Team</a></li>
+            <li><a href="./help.html" class="nav-btn">Help</a></li>
+            <li><a href="http://www.facebook.com/sharer.php?u=" class="nav-btn">Share</a></li>
+            <li><a href="./about.html" class="nav-btn">About</a></li>
+        </ul>
+    </nav>
     <form class="books-dropdown">
         <p class="dropddown-header">Random Books<sup class="sup-txt">Beta</sup> - </p>
         <select id="random-cat" onchange="getRange()" class="book-display-list">
