@@ -1,5 +1,23 @@
 let database = [
 	{
+    "writer": "Taylor Jenkins Reid",
+    "name": "Seven Husbands of Evelyn Hugo",
+    "language": "English",
+    "subject": "Novel",
+    "page": "388",
+    "link": "https://drive.google.com/file/d/1G3YuW-XmNu7Sr-KjSKwT81NPGmso4un4/view?usp=sharing",
+    "terms": "love romantic" ,
+   },
+{
+    "writer": "Dan Brown",
+    "name": "Angel and Demons",
+    "language": "English",
+    "subject": "Thriller",
+    "page": "385",
+    "link": "https://drive.google.com/file/d/1WWBCVmfjHKx3EKUwNcjvEWonQiyoJuB6/view?usp=sharing",
+    "terms": "Crime Thriller Novel" ,
+   },
+{
     "writer": "George R.R. Martin",
     "name": "A Feast for Crows",
     "language": "English",
