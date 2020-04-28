@@ -1,5 +1,14 @@
 let database = [
 	{
+    "writer": "Sunil Gangopadhyay",
+    "name": "Kakababu Somogro",
+    "language": "English",
+    "subject": "Thriller",
+    "page": "525",
+    "link": "https://drive.google.com/file/d/1_J8UG5dhluIepBkfsGU0PGGYuqB_-fCd/view?usp=sharing",
+    "terms": "literature child detective" ,
+   },
+	{
     "writer": "Taylor Jenkins Reid",
     "name": "Seven Husbands of Evelyn Hugo",
     "language": "English",
