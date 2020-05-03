@@ -106,7 +106,7 @@ body{
 .random-download{
     font-size: 1.25rem;
     border-radius: 5px;
-    padding: 0 0.5rem;
+    padding: 0.1rem 1rem;
     color: white;
     text-decoration: none;
     background-color: #3cac3c;
@@ -114,7 +114,7 @@ body{
 .random-download:hover{
     font-size: 1.25rem;
     border-radius: 5px;
-    padding: 0 0.5rem;
+    padding: 0.1rem 1rem;
     color: white;
     text-decoration: none;
     background-color: #50ce50;
@@ -136,14 +136,14 @@ body{
 
 #book-display a{
     border-radius: 5px;
-    padding: 0 0.5rem;
+    padding: 0.1rem 1rem;
     color: white;
     text-decoration: none;
     background-color: #3cac3c;
 }
 #book-display a:hover{
     border-radius: 5px;
-    padding: 0 0.5rem;
+    padding: 0.1rem 1rem;
     color: white;
     text-decoration: none;
     background-color: #50ce50;
