@@ -1,16 +1,16 @@
 let database = [
    {
-		"writer": "Buddhadeb Guha",
-		"name": "ধোকার দোলনা",
+	"writer": "Buddhadeb Guha",
+	"name": "ধোকার দোলনা",
        "language": "Bangla",
        "subject": "Novel",
-		"page": "12",
-		"link": "https://drive.google.com/file/d/1MV5h4EmP1lM6YwWTT5pZkoFr5heRFald/view?usp=drivesdk",
+	"page": "12",
+	"link": "https://drive.google.com/file/d/1MV5h4EmP1lM6YwWTT5pZkoFr5heRFald/view?usp=drivesdk",
        "terms": "Literature" ,
    },
 {
-		"writer": "Buddhadeb Guha",
-		"name": "রুআহা",
+	"writer": "Buddhadeb Guha",
+	"name": "রুআহা",
        "language": "Bangla",
        "subject": "Adventure ",
 		"page": "89",
