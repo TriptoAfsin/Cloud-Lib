@@ -9281,6 +9281,15 @@ let database = [
         "terms": "material Science mechanical Engineering civil fluid" ,
     },
     {
+		"writer": "R K Bansal",
+		"name": "Strength of Materials(4th Edition)",
+        "language": "English",
+        "subject": "Mechanical / Civil",
+		"page": "1200",
+        "link": "https://drive.google.com/file/d/17NjvkL_E_-_sbQrSzi94uTLK15dAL93o/view?usp=sharing",
+        "terms": "material Science mechanical Engineering civil strength" ,
+    },
+    {
 		"writer": "Magoosh",
 		"name": "Magoosh GRE Vocabulary",
         "language": "English",
@@ -9313,7 +9322,7 @@ let database = [
         "language": "English",
         "subject": "Math / Engineering",
 		"page": "1332",
-        "link": "https://drive.google.com/drive/folders/1mgu7pBcFpn3wSIptIOhnJN6HT4K2sywq",
+        "link": "https://drive.google.com/file/d/1eka1zlDmL7wuECRcVL6U2oo0ryrMfUHq/view?usp=sharing",
         "terms": " Science Engineering math mathematics" ,
     },
     {
