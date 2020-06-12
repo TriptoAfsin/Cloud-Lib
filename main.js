@@ -1,4 +1,6 @@
 //var database;
+document.getElementById("database").innerHTML =   "Wait...";
+
 
 fetch("https://triptoafsin.github.io/API-Host/BookDB.json", {
 	"method": "GET"
