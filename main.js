@@ -1,5 +1,7 @@
 //var database;
 document.getElementById("database").innerHTML =   "Wait...";
+document.getElementById("search").style.display = "none";
+document.getElementById("lib-txt").innerText = "Loading..";
 
 
 fetch("https://triptoafsin.github.io/API-Host/BookDB.json", {
@@ -11,6 +13,8 @@ fetch("https://triptoafsin.github.io/API-Host/BookDB.json", {
     //lengthArray = [data];
     console.log(database);
     document.getElementById("database").innerHTML =   database.length+ " Books";
+    document.getElementById("search").style.display = "inline-block";
+    document.getElementById("lib-txt").innerText = "Cloud Lib";
     
 })
 .catch(err => {
