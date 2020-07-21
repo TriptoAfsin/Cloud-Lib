@@ -31,6 +31,8 @@ window.onload = function(){
     const search = document.getElementById("search");
     const matchList = document.getElementById("list");
 
+    registerSW(); //pwa service register function
+
    //arrayDB = Object.keys(database); 
 
 //this function searches the booklist
@@ -78,6 +80,21 @@ const outputHtml = matches =>{
 window.addEventListener('DOMContentLoaded', searchBooks);
 search.addEventListener("keyup", () => searchBooks(search.value));
 console.log(database.length);
+}
+
+
+
+//code for PWA
+
+async function registerSW(){
+
+    if('serviceWorker' in navigator){
+        try{
+            await navigator.serviceWorker.register('./sw.js');
+        }catch(e){
+            console.log("Service worker registration failed");
+        }
+    }
 }
 
 

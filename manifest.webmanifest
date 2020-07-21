@@ -1,0 +1,16 @@
+{
+    "name": "Cloud Lib",
+    "short_name": "Cloud Lib",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A cloud stoarge based free book distribution system",
+    "icons": [
+        {
+            "src": "./pwa_icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}
