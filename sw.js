@@ -30,7 +30,7 @@ self.addEventListener('install', async e =>{
 
 
 self.addEventListener('activate', e =>{
-    self.ClientRectList.claim();
+    self.clients.claim();
 });
 
 
