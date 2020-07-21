@@ -4,6 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#fff",
+    "theme_color": "#54a3e4",
     "description": "A cloud stoarge based free book distribution system",
     "icons": [
         {
