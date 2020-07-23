@@ -2,6 +2,7 @@
     "name": "Cloud Lib",
     "short_name": "Cloud Lib",
     "start_url": "/",
+    "scope": "/",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#54a3e4",
