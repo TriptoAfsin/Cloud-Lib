@@ -8,13 +8,13 @@
     "description": "A cloud stoarge based free book distribution system",
     "icons": [
         {
-            "src": "./pwa_icon.png",
-            "sizes": "512x512",
+            "src": "./pwa_icon_192.png",
+            "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "./pwa_icon_192.png",
-            "sizes": "192x192",
+            "src": "./pwa_icon.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ]
