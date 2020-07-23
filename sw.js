@@ -1,4 +1,4 @@
-const cacheName = 'lib-v1';
+const cacheName = 'lib-cloud';
 
 const staticAssets = [
     './',
