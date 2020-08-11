@@ -92,6 +92,8 @@ console.log(database.length);
 
 
 
+/*
+
 //code for PWA
 
 async function registerSW(){
@@ -106,7 +108,7 @@ async function registerSW(){
 }
 
 
-
+*/
 
 
 
