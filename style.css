@@ -13,8 +13,7 @@ html{
 
 body{
     font-family: 'Baloo Thambi 2', cursive;
-    background-color: white;
-    color: whitesmoke;
+    background-color: whitesmoke;
 }
 
 .search-container{
@@ -119,8 +118,6 @@ body{
     text-decoration: none;
     background-color: #50ce50;
 }
-
-
 .sup-txt{
     margin-left: 0.5rem;
     font-size: 1rem;
@@ -450,24 +447,39 @@ nav ul li{
 }
 
 
+@media screen and (min-width: 800px){
+   
+}
+
+
+@media screen and (min-width: 800px){
+    
+    
+}
+
+@media screen and (min-width: 800px){
+   
+}
+
+
+
+
+
 .card{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-top: 1rem;
     color: black;
     margin-bottom: 0.5rem;
     background-color: white;
-    box-shadow: 0 3px 5px 0 rgba(105, 149, 175, 0.795);
+    box-shadow: 2px 1rem 1rem rgba(129, 195, 226, 0.25);
 }
 .card:hover {
-    transition: ease-in 0.4s;
-    border-radius: 10px;
-    margin-top: 1rem;
-    color: black;
-    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: ease-out 0.4s;
+    transform: scale(1.02);
     background-color: rgb(221, 235, 252);
-    width: 100%;
-    box-shadow: 0 3px 5px rgba(106, 178, 219, 0.795);
+    box-shadow: 0 3px 5px rgba(168, 210, 235, 0.795);
 }
 .card span{
     color: green;
@@ -475,6 +487,7 @@ nav ul li{
 }
 
 .card .card-title{
+    padding: 0.5rem 1rem;
     font-weight: 600;
     margin-top: 1rem;
 }
