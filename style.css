@@ -30,9 +30,9 @@ body{
     padding: 1rem 5rem;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 790px){
     .result-container{
-        margin-left: -8%;
+        margin-left: -7% !important;
         font-size: 14px;
         margin: 10px auto;
         user-select: none; /* prevents user from selcting ui elements*/
@@ -90,12 +90,17 @@ body{
     position: relative;
     user-select: none; /* prevents user from selcting ui elements*/
 }
-.result-container{
-    margin-left: 1px;
-    text-align: center;
-    font-size: 14px;
-    user-select: none; /* prevents user from selcting ui elements*/
+
+@media screen and (min-width: 800px){
+    .result-container{
+        margin-left: 0%;
+        text-align: center;
+        font-size: 14px;
+        user-select: none; /* prevents user from selcting ui elements*/
+    }
 }
+
+
 
 .brand img{
     margin-left: -0.55%;
