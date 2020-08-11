@@ -31,7 +31,7 @@ window.onload = function(){
     const search = document.getElementById("search");
     const matchList = document.getElementById("list");
 
-    registerSW(); //pwa service register function
+    //registerSW(); //pwa service register function
 
    //arrayDB = Object.keys(database); 
 
@@ -62,7 +62,7 @@ const outputHtml = matches =>{
         console.log(foundBooks);
         console.log(foundBooks.length);
 
-        document.getElementById("database").innerHTML = `${foundBooks.length} Books Found`;
+        //document.getElementById("database").innerHTML = `${foundBooks.length} Books Found`;
         const html = matches.map(match => `
         <div class="card-container">
         <div class="card" onclick="location.href='${match.link}'">
@@ -78,7 +78,7 @@ const outputHtml = matches =>{
         matchList.innerHTML = html;
     }
     else{
-        document.getElementById("database").innerHTML =   database.length+ " Books";
+        //document.getElementById("database").innerHTML =   database.length+ " Books";
         matchList.innerHTML = null;
         document.getElementById("suggestion").style.display = "inline-block";
         document.getElementById("suggestion2").style.display = "none";
@@ -92,10 +92,8 @@ console.log(database.length);
 
 
 
-/*
-
 //code for PWA
-
+/*
 async function registerSW(){
 
     if('serviceWorker' in navigator){
@@ -107,8 +105,10 @@ async function registerSW(){
     }
 }
 
-
 */
+
+
+
 
 
 
