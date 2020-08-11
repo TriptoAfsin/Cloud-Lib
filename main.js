@@ -58,11 +58,18 @@ const searchBooks = async searchText =>{
 
 const outputHtml = matches =>{
     if(matches.length > 0){
+        let foundBooks = matches;
+        console.log(foundBooks);
+        console.log(foundBooks.length);
+
+        document.getElementById("database").innerHTML = `${foundBooks.length} Books Found`;
         const html = matches.map(match => `
-        <div class="card">
+        <div class="card-container">
+        <div class="card" onclick="location.href='${match.link}'">
         <p class="card-title">${match.name} <br>(${match.writer}) <br><span>${match.subject}</span></p>
         <p><a href="${match.link}" target="blank" id="url">Download</a></p>
         <small>Language: ${match.language} / Page: ${match.page} </small>
+        </div>
         </div>
         `).join('');
         console.log(html);
@@ -71,6 +78,7 @@ const outputHtml = matches =>{
         matchList.innerHTML = html;
     }
     else{
+        document.getElementById("database").innerHTML =   database.length+ " Books";
         matchList.innerHTML = null;
         document.getElementById("suggestion").style.display = "inline-block";
         document.getElementById("suggestion2").style.display = "none";
@@ -96,8 +104,6 @@ async function registerSW(){
         }
     }
 }
-
-
 
 
 
